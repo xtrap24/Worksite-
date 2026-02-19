@@ -1,46 +1,119 @@
+
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Bootstrap 101 Template</title>
+<head>
+    <meta charset="UTF-8">
+    <style>
+        body { font-family: 'Times New Roman', serif; color: #333; margin: 0; padding: 0; }
+        .flyer-container {
+            width: 8.5in;
+            height: 11in;
+            margin: auto;
+            border: 15px double #d4af37; /* Gold border */
+            padding: 40px;
+            box-sizing: border-box;
+            text-align: center;
+            background-color: #fff;
+        }
+        .header { margin-top: 20px; }
+        .dove { font-size: 40px; margin-bottom: 10px; }
+        h1 { font-size: 42pt; margin: 10px 0; font-weight: normal; }
+        .dates { font-size: 18pt; letter-spacing: 2px; margin-bottom: 30px; }
+        
+        .image-placeholder {
+            width: 250px;
+            height: 300px;
+            border: 1px solid #ccc;
+            margin: 20px auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-style: italic;
+            color: #999;
+        }
 
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+        .details { font-size: 16pt; margin: 40px 0; line-height: 1.6; }
+        .details b { color: #2c3e50; }
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-  <nav class="navbar navbar-inverse">
-    <div class="container-fliud">
-    
-    <!--place logo here-->
-      <div class="navbar-header">
-        <a href+="#" class=navbar-brand">SIMBA</a>
-      </div>
-    <!--main menu-->
-      <div class="collapse">
-        <ul class="nav navbar-nav">
-          <li class="active"><a href="#" >Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#"></a></li>
-        </ul>
-      
-      </div>
+        .qr-section {
+            margin-top: 50px;
+            border-top: 1px solid #eee;
+            padding-top: 30px;
+        }
+        .qr-box {
+            width: 150px;
+            height: 150px;
+            border: 1px solid #000;
+            margin: 10px auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 10pt;
+        }
+        .quote { font-style: italic; font-size: 14pt; margin-top: 40px; color: #555; }
+
+        @media print {
+            .no-print { display: none; }
+            body { -webkit-print-color-adjust: exact; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="no-print" style="background: #fdf6e3; padding: 15px; text-align: center; border-bottom: 1px solid #eee;">
+        <strong>Instructions:</strong> Print this page. Paste your <b>QR code</b> and a <b>photo of Dorothy</b> in the boxes below before copying.
     </div>
-  </nav>
-    <h1>Hello, world!</h1>
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
-  </body>
+    <div class="flyer-container">
+        <div class="header">
+            <div class="dove">🕊️</div>
+            <p style="text-transform: uppercase; letter-spacing: 3px;">Celebrating the Life of</p>
+            <h1>Dorothy Ndagire</h1>
+            <div class="dates">1988 — 2026</div>
+        </div>
+
+        <div class="image-placeholder">
+            [ Place Dorothy's <br> Photograph Here ]
+        </div>
+
+        <div class="details">
+            <b>Funeral Service</b><br>
+            St. Mbuga Church, Kiwatule<br>
+            Thursday, Feb 19, 2026 | 11:00 AM<br>
+            <br>
+            <b>Final Rest</b><br>
+            Mityana Mu Lukyamu (Tamu)<br>
+            Friday, Feb 20, 2026 | 2:00 PM
+        </div>
+
+        <div class="qr-section">
+            <p style="margin-bottom: 10px;"><b>Scan to Share a Memory</b></p>
+            <div class="qr-box">
+                [ Paste QR Code Here ]
+            </div>
+            <p style="font-size: 11pt; color: #666;">A digital space for her children to cherish your stories.</p>
+        </div>
+
+        <div class="quote">
+            "Those we love don’t go away; they walk beside us every day."
+        </div>
+    </div>
+
+</body>
 </html>
+
+
+
+<div class="card">
+    <h3>Funeral Service</h3>
+    <p><strong>St. Mbuga Church, Kiwatule</strong></p>
+    <p><em>Today, Thursday, Feb 19</em></p>
+    <p>11:00 AM</p>
+</div>
+
+<div class="card">
+    <h3>Final Rest</h3>
+    <p><strong>Mityana Mu Lukyamu (Tamu)</strong></p>
+    <p><em>Tomorrow, Friday, Feb 20</em></p>
+    <p>2:00 PM</p>
+</div>
