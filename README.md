@@ -69,39 +69,7 @@
             <div class="dove">🕊️</div>
             <p style="text-transform: uppercase; letter-spacing: 3px;">Celebrating the Life of</p>
             <h1>Dorothy Ndagire</h1>
-            <div class="dates">1988 — 2026</div>
-        </div>
-
-        <div class="image-placeholder">
-            [ Place Dorothy's <br> Photograph Here ]
-        </div>
-
-        <div class="details">
-            <b>Funeral Service</b><br>
-            St. Mbuga Church, Kiwatule<br>
-            Thursday, Feb 19, 2026 | 11:00 AM<br>
-            <br>
-            <b>Final Rest</b><br>
-            Mityana Mu Lukyamu (Tamu)<br>
-            Friday, Feb 20, 2026 | 2:00 PM
-        </div>
-
-        <div class="qr-section">
-            <p style="margin-bottom: 10px;"><b>Scan to Share a Memory</b></p>
-            <div class="qr-box">
-                [ Paste QR Code Here ]
-            </div>
-            <p style="font-size: 11pt; color: #666;">A digital space for her children to cherish your stories.</p>
-        </div>
-
-        <div class="quote">
-            "Those we love don’t go away; they walk beside us every day."
-        </div>
-    </div>
-
-</body>
-</html>
-
+      
 
 
 <div class="card">
